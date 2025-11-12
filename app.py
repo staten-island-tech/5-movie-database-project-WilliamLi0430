@@ -4,7 +4,7 @@ movies = open("./movies.json", encoding="utf8")
 ## create variable "data" that represents the entire movie list
 data = json.load(movies)
 searchbar = int(input("What"))
-if int("year") > searchbar:
+if ([data]("year")) > searchbar:
     print("title")
 
 
